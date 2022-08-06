@@ -3,7 +3,7 @@
 > This is a decryption tool for Netease-MC maps
 这是一个网易我的世界基岩版的存档解密工具
 
-## How to use 如何使用
+## Usage 如何使用
 
 1. 启动SaveFucker.exe
 
