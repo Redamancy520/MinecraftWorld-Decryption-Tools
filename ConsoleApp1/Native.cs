@@ -30,11 +30,11 @@ namespace MCStudio.Network.Http
 		[DllImport("api-ms-win-crt-utility-l1-1-1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Auto)]
 		public static extern int HttpDecrypt(IntPtr pArray, int nSize, out IntPtr buff, out IntPtr key);
 
-		// Token: 0x060010F2 RID: 4338
-		[DllImport("api-ms-win-crt-utility-l1-1-1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Auto)]
-		public static extern void FreeMemory(IntPtr ptr);
+        // Token: 0x060010F2 RID: 4338
+        [DllImport("api-ms-win-crt-utility-l1-1-1.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Auto)]
+        public static extern void FreeMemory(IntPtr ptr);
 
-		// Token: 0x0400076B RID: 1899
-		public const string CORE_DLL_NAME = "api-ms-win-crt-utility-l1-1-1.dll";
+        // Token: 0x0400076B RID: 1899
+        public const string CORE_DLL_NAME = "api-ms-win-crt-utility-l1-1-1.dll";
 	}
 }
